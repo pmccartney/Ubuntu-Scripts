@@ -5,7 +5,16 @@
 #
 ##############################
 
-apt-get install git-core
-apt-get install g++
-apt-get install build-essential
-apt-get install libssl-dev
+echo "----------------  INSTALLING GIT-CORE"
+apt-get --force-yes install git-core
+
+echo "----------------  INSTALLING G++"
+apt-get --force-yes install g++
+
+echo "-----------------  INSTALLING BUILD_ESSENTIAL"
+apt-get --force-yes install build-essential
+
+echo "-----------------  INSTALLING LIBSSL-DEV"
+apt-get --force-yes install libssl-dev
+
+chmod +x DevelopmentInstall.sh
