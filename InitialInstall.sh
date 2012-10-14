@@ -6,15 +6,19 @@
 ##############################
 
 echo "----------------  INSTALLING GIT-CORE"
-apt-get install git-core
+apt-get --yes install git-core
+sleep 5
 
 echo "----------------  INSTALLING G++"
-apt-get install g++
+apt-get --yes install g++
+sleep 5 
 
 echo "-----------------  INSTALLING BUILD_ESSENTIAL"
-apt-get install build-essential
+apt-get --yes install build-essential
+sleep 5 
 
 echo "-----------------  INSTALLING LIBSSL-DEV"
-apt-get install libssl-dev
+apt-get --yes install libssl-dev
+sleep 5 
 
 ./DevelopmentInstall.sh
