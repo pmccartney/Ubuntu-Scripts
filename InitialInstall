@@ -1,0 +1,11 @@
+#!/bin/sh
+##############################
+#
+#  Script to install basic files needed for git
+#
+##############################
+
+apt-get install git-core
+apt-get install g++
+apt-get install build-essential
+apt-get install libssl-dev
