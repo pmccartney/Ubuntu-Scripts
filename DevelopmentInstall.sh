@@ -9,8 +9,7 @@ mkdir Development
 
 
 echo "---------------- Installing Node.js"
-chmod +x InstallNode.sh
 cd Development
-./../InstallNode.sh
+./../NodeInstall.sh
 
 

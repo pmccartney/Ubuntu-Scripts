@@ -17,3 +17,4 @@ apt-get install build-essential
 echo "-----------------  INSTALLING LIBSSL-DEV"
 apt-get install libssl-dev
 
+./DevelopmentInstall.sh
