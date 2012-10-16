@@ -4,6 +4,9 @@
 #  Script to install basic files needed for git
 #
 ##############################
+echo "----------------  UPDATING REPOSITORIES"
+apt-get update
+apt-get dist-upgrade
 
 echo "----------------  INSTALLING GIT-CORE"
 apt-get --yes install git-core
@@ -22,4 +25,10 @@ apt-get --yes install libssl-dev
 sleep 5 
 
 ./NginxInstall.sh
+sleep 5 
+
+./MySQLInstall.sh
+sleep 5 
+
+./Php5Install.sh
 sleep 5 
