@@ -20,3 +20,6 @@ sleep 5
 echo "-----------------  INSTALLING LIBSSL-DEV"
 apt-get --yes install libssl-dev
 sleep 5 
+
+./NginxInstall.sh
+sleep 5 
