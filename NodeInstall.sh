@@ -5,7 +5,8 @@
 #
 ##############################
 
-git clone git://github.com/ry/node.git
+cd /usr/share/nginx/www
+git clone git://github.com/joyent.git
 cd node
 ./configure
 make

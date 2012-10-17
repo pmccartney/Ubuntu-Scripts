@@ -24,11 +24,21 @@ echo "-----------------  INSTALLING LIBSSL-DEV"
 apt-get --yes install libssl-dev
 sleep 5 
 
+echo "-----------------  INSTALLING Python Props for Node plugins"
+apt-get --yes install python-software-properties
+sleep 5 
+
 ./NginxInstall.sh
 sleep 5 
 
-./MySQLInstall.sh
+./NodeInstall.sh
 sleep 5 
 
-./Php5Install.sh
+./NpmInstall.sh
 sleep 5 
+
+#./MySQLInstall.sh
+#sleep 5 
+
+#./Php5Install.sh
+#sleep 5 

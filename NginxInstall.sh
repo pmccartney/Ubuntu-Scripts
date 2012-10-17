@@ -12,5 +12,7 @@ add-apt-repository ppa:nginx/$nginx
 echo "-----------------  INSTALLING NGINX"
 apt-get --yes install nginx
 
+mkdir /usr/share/nginx/www
+
 echo "-----------------  START NGINX"
 /etc/init.d/nginx START
