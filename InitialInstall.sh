@@ -5,27 +5,27 @@
 #
 ##############################
 echo "----------------  UPDATING REPOSITORIES"
-apt-get update
-apt-get dist-upgrade
+apt-get -fy update
+apt-get -fy upgrade
 
 echo "----------------  INSTALLING GIT-CORE"
-apt-get --yes install git-core
+apt-get -fy install git-core
 sleep 5
 
 echo "----------------  INSTALLING G++"
-apt-get --yes install g++
+apt-get -fy install g++
 sleep 5 
 
 echo "-----------------  INSTALLING BUILD_ESSENTIAL"
-apt-get --yes install build-essential
+apt-get -fy install build-essential
 sleep 5 
 
 echo "-----------------  INSTALLING LIBSSL-DEV"
-apt-get --yes install libssl-dev
+apt-get -fy install libssl-dev
 sleep 5 
 
 echo "-----------------  INSTALLING Python Props for Node plugins"
-apt-get --yes install python-software-properties
+apt-get -fy install python-software-properties
 sleep 5 
 
 ./NginxInstall.sh

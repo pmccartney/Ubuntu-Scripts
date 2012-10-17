@@ -10,7 +10,7 @@ echo "-----------------  ADDING NGINX TO APT_GET REPOS"
 add-apt-repository ppa:nginx/$nginx
 
 echo "-----------------  INSTALLING NGINX"
-apt-get --yes install nginx
+apt-get -fy install nginx
 
 mkdir /usr/share/nginx/www
 
