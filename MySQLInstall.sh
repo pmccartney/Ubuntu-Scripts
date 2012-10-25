@@ -6,3 +6,4 @@
 ##############################
 echo "--------------   INSTALLING MYSQL"
 apt-get --yes install mysql-server mysql-client
+

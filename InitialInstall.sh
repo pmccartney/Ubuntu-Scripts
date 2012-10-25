@@ -28,17 +28,21 @@ echo "-----------------  INSTALLING Python Props for Node plugins"
 apt-get -fy install python-software-properties
 sleep 5 
 
-./NginxInstall.sh
-sleep 5 
+echo "-----------------  INSTALLING JAVA"
+apt-get -fy install openjdk-6-jdk
+sleep 5
 
-./NodeInstall.sh
+./NginxInstall.sh
 sleep 5 
 
 ./NpmInstall.sh
 sleep 5 
 
-#./MySQLInstall.sh
-#sleep 5 
+./NodeInstall.sh
+sleep 5 
+
+./MySQLInstall.sh
+sleep 5 
 
 #./Php5Install.sh
 #sleep 5 
